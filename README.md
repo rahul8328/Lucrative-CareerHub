@@ -54,8 +54,6 @@ JobBuilding/
 │── docs/SCREENS.docx # Screenshots / documentation
 └── README.md # Project documentation
 
-yaml
-Copy code
 
 ---
 
