@@ -1,0 +1,41 @@
+{% load static %}
+<html>
+<head>
+<title>Job Building System</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" />
+</head>
+<style>
+body {
+  background-image: url("{% static 'images/back.jpg' %}");
+}
+</style>
+<body>
+<div class="main">
+  <div class="main_resize">
+    <div class="header">
+      <div class="logo">
+        <h1 align="center"><span>Add Job's Building an Lucrative Carrier Job</span><small></small></h1>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content_bg">
+        <div class="menu_nav">
+         
+           <ul>
+      <li><a href="{% url 'index' %}"><font size="3" color="black">Home</a></li>
+	  <li><a href="{% url 'AdminLogin' %}"><font size="3" color="black">Admin Login</a></li>
+       <li><a href="{% url 'GraduateLogin' %}"><font size="3" color="black">Graduate Login</a></li>
+      <li><a href="{% url 'CompanyLogin' %}"><font size="3" color="black">Company Login</a></li>
+	  <li><a href="{% url 'GraduateRegister' %}"><font size="3" color="black">Graduate Signup</a></li>
+	   <li><a href="{% url 'CompanyRegister' %}"><font size="3" color="black">Company Signup</a></li>
+   </ul>
+         
+        </div>
+        <div class="hbg"><img src="{% static 'images/header_images.jpg' %}" width="1010" height="200" alt="" /></div>
+
+		       <p align="justify"><font size="3" style="font-family: Comic Sans MS" color="black"><center>Job Building System</center></p>
+ 
+<p align="justify"><font size="3" style="font-family: Comic Sans MS" color="black">This unique system allows both Graduates & Startup companies to find suitable team members to work on companies project. This system will automatically scan & match companies requirements  with available team members to select & assigned best team for startup project.</p>
+  </body>
+</html>
